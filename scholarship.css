@@ -6,11 +6,12 @@
 }
 .scholarship_child{
     display: flex;
-    height: 120px;
+    height: 80%;
     margin: 10px;
     border-radius: 5px;
     align-items: center;
-    width: 300px;
+    /* width: 300px; */
+    flex:1;
 }
 .sch_Img > img{
     border-radius: 50%;
@@ -29,16 +30,13 @@
 .child3{
     background-color: rgb(27, 177, 223);
 }
-@media (max-width: 800px){
-    .scholarship_child{
-        font-size: 12px;
-        flex:1;
-    }
-}
-@media (max-width: 650px){
+@media (max-width: 780px){
     .scholarship{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .scholarship_child{
+         width: 90%;
     }
 }
